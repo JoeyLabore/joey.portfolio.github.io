@@ -14,6 +14,10 @@
 
     /* NAV */
     
+    nav {
+        gap: 32%;
+    }
+
     #desktop-nav {
         display: none;
     }
@@ -87,6 +91,12 @@
 }
 
 @media screen and (max-width:576px) {
+
+      /* NAV */
+    
+    nav {
+        gap: 32%;
+    }
 
       /* HERO SECTION */
 
