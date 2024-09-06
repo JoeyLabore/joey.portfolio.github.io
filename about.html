@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joey.</title>
+    <link rel="icon" type="image/jpg" href="/assets/faviconv2.jpg">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"/>
+</head>
+<body>
+    <nav id="desktop-nav">
+        <a href="index.html" class="logo-link">
+            <img src="assets/Logo (Yellow).png" class="logo">
+        </a>
+        <div>
+            <ul class="nav-links">
+                <li><a href="index.html">work</a></li>
+                <li><a href="about.html">about</a></li>
+                <li><a href="contact.html">contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav"> 
+        <a href="index.html" class="logo-link">
+            <img src="assets/Logo (Yellow).png" class="logo">
+        </a>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="togglemenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="index.html" onclick="togglemenu()">work</a></li>
+                <li><a href="about.html" onclick="togglemenu()">about</a></li>
+                <li><a href="contact.html" onclick="togglemenu()">contact</a></li>
+            </div>
+        </div>
+    </nav>
+    <section class="subpage-sections">
+        <div>
+            <h1>About</h1>
+        </div>
+    </section>
+    <section id="footer">
+        <div class="footer">
+            <div class="inner-footer">
+                <div class="logo-container">
+                    <img src="/assets/Logo (White).png">
+                </div>
+                <div class="logo-third">
+                    <h1>projects</h1>
+                    <a href="NestBank.html">nestbank</a>
+                    <a href="Medigo.html">medigo</a>
+                    <a href="LogoBook.html">logobook</a>
+                </div>
+                <div class="logo-third">
+                    <h1>pages</h1>
+                    <a href="index.html">work</a>
+                    <a href="about.html">about</a>
+                    <a href="contact.html">contact</a>
+                </div>
+                <div class="logo-third">
+                    <h1>socials</h1>
+                    <a href="https://www.instagram.com/swyndlr/" target="_blank">instagram</a>
+                    <a href="https://www.linkedin.com/in/josephgreenwood/" target="_blank">linkedin</a>
+                    <a href="https://www.behance.net/joeys_portfolio" target="_blank">behance</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
