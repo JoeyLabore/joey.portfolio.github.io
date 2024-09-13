@@ -329,8 +329,8 @@ a:hover {
 }
 
 .logos-slide img {
-    height: 56px;
-    margin: 0px 40px;
+    height: 40px;
+    margin: 0px 24px;
 }
 
 @keyframes slide {
